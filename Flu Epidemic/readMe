@@ -1,0 +1,9 @@
+Créateur : Quentin Cornevin
+
+Pour lancer le projet, executer la classe Main.java dans le package src/epidemicInterface.
+
+
+Ce projet est la simuluation d'une contamination du monde par différentes maladies : H1N1 / H5N1.
+Il existe différents types d'êtres vivants : les humains / les cochons / les canards et les poulets.
+Seule les humains peuvent attraper les deux maladies. Les cochons ne peuvent être contaminé que par le H5N1 et les volailles uniquement par le H1N1.
+La simulation du monde se fait a partir d'une grille contenant toutes les cases qui peuvent être vides ou non.
