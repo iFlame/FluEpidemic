@@ -21,15 +21,13 @@ public abstract class LivingBeing {
 		this.type=null;
 		this.dayState=0;
 	}
-	
-	
+		
 	/**
 	 * @return the disease
 	 */
 	public Disease getDisease() {
 		return disease;
 	}
-
 
 	/**
 	 * @param disease the disease to set
@@ -38,14 +36,12 @@ public abstract class LivingBeing {
 		this.disease = disease;
 	}
 
-
 	/**
 	 * @return the dayState
 	 */
 	public int getDayState() {
 		return dayState;
 	}
-
 
 	/**
 	 * @param dayState the dayState to set
@@ -54,10 +50,8 @@ public abstract class LivingBeing {
 		this.dayState = dayState;
 	}
 
-
 	public void dead(){
 	}
-	
 	
 	/**
 	 * 

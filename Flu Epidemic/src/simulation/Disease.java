@@ -13,17 +13,20 @@ public abstract class Disease {
 	protected String name;
 	protected int incubationTime;
 	protected int contagiousTime;
+	private static final int incubationTim=3;
+	private static final int contagiousTim=3;
+	private static final int number=100;
 
 	public Disease(double mortalityRate, double contagiousRate, String name) {
 		this.mortalityRate = mortalityRate;
 		this.contagiousRate = contagiousRate;
 		this.name = name;
-		this.incubationTime=3;
-		this.contagiousTime=3;
+		this.incubationTime=incubationTim;
+		this.contagiousTime=contagiousTim;
 	}
 
 	public Disease() {
-		this(100, 100, "death");
+		this(number, number, "death");
 	}
 	
 	/**

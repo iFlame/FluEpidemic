@@ -2,7 +2,7 @@ package world;
 
 import java.util.List;
 
-import epidemicInterface.Sentence;
+import epidemicinterface.Sentence;
 
 import simulation.LivingBeing;
 
